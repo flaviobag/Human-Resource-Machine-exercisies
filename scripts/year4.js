@@ -1,13 +1,13 @@
-function year4(num) {
+function year4(items) {
 
-    const numero1 = 5;
-    const numero2 = 10;
-
-    const control1 = numero2;
-    
-
-    console.log(numero2, numero1)
-    return(num);
+    const x = items.lenght;
+    for(i = 0; i <= x; i + 2){
+        
+        console.log(items[i+1])
+        console.log(items[i])
+    }
 }
 
-console.log(year4())
+const items = [1,2,3,4,5,6]
+
+year4(items)

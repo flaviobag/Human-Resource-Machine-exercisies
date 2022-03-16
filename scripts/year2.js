@@ -1,11 +1,10 @@
 
-function year2(itens) {
-var itens = new Array("maça", "pera", "abacate", "uva")
+function year2(items) {
 
-for(i = 0; i < itens.length; i++){
-   console.log(itens[i])
-};
-return(itens[i]);
+   console.log(items)
+
 }
 
-console.log(year2(5))
+const items = [1,2,3,4,5,6,7,8,9,10]
+
+items.forEach(year2)
