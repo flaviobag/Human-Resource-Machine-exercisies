@@ -1,13 +1,16 @@
 function year4(items) {
 
-    const x = items.lenght;
-    for(i = 0; i <= x; i + 2){
-        
-        console.log(items[i+1])
-        console.log(items[i])
+    let counter = 0
+    const newItems = []
+    while(counter < items.length) {
+
+        newItems.push(items[counter+1])
+        newItems.push(items[counter])
+        counter += 2
     }
+    return newItems
 }
 
-const items = [1,2,3,4,5,6]
+const items = [4, 9 , 'n', 'd', 3, 8]
 
-year4(items)
+console.log(year4(items))

@@ -1,13 +1,17 @@
-function year6(num) {
+function year6(items) {
 
-    const numero1 = 5;
-    const numero2 = 10;
+    let counter = 0
+    const newItems = []
+    while(counter < items.length) {
 
-    const sum = numero1 + numero2;
-    
+      const sum = items[counter+1] + items[counter]
 
-    console.log(sum)
-    return(num);
+      newItems.push(sum)
+      counter += 2
+    }
+    return newItems
 }
 
-console.log(year6())
+const items = [5, 8, 7, 0, -4, 0, 3, 4]
+
+console.log(year6(items))

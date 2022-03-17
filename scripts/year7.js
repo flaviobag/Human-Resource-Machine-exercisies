@@ -1,16 +1,9 @@
-function year7() {
-    
-    let i = 0
-    items.sort()   
-    console.log(items)
-    for(i = 0;i <= items.length; i++) {
-        if(items[0] === 0) {
-            items.shift()
-        }
-    }
-    console.log(items)
+function year7(items) {
+    const itemsWithoutZero = items.filter((item) => item !== 0)
+   
+    return itemsWithoutZero
  }
  
- const items = [25,8,0,6,7,0,5,0,0,9,29,0]
+ const items = [6, 0, 1, 'B', 0, 0, 0]
  
-year7(items)
+    console.log(year7(items))
