@@ -1,8 +1,8 @@
 function year8(items) {
     
-  const mulTbyThree = items.map((item) => item * 3)
+  const multbyThree = items.map((item) => item * 3)
    
-  return mulTbyThree
+  return multbyThree
 }
  
  const items = [1,  -5, 7, 0] 

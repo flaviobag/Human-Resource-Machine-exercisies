@@ -6,4 +6,4 @@ function year9(items) {
  
  const items = [1, 0, -4, 'B', 0, 0, 3]
  
-    console.log(year9(items))
+console.log(year9(items))
