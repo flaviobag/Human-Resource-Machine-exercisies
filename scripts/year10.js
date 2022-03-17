@@ -1,17 +1,9 @@
 function year10(items) {
     
-    let counter = 0
-    const newItems = []
-    while(counter < items.length) {
-
-      const mult = items[counter] * 8
-
-      newItems.push(mult)
-      counter ++
-    }
-    return newItems
+    const mulTByEight = items.map((item) => item * 8)
+   
+    return mulTByEight
 }
  
- const items = [5, -7, 3, 0]
- 
+ const items = [5, -7, 3, 0] 
  console.log(year10(items))
