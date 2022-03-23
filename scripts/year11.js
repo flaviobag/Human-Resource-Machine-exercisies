@@ -4,9 +4,9 @@ function year6(items) {
     const newItems = []
     while(counter < items.length) {
 
-      const sum = items[counter+1] - items[counter]
+      const sum = items[counter + 1] - items[counter]
       newItems.push(sum)
-      const sum2 = items[counter] - items[counter+1]
+      const sum2 = items[counter] - items[counter + 1]
       newItems.push(sum2)
 
       counter += 2
