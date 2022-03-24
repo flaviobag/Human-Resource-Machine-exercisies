@@ -1,5 +1,5 @@
 function year16(items) {
- 
+  
     let counter = 0
     const newItems = []
     while (counter < items.length) {        
@@ -8,7 +8,7 @@ function year16(items) {
     } else {
       newItems.push(items[counter])
     }
-    counter ++
+    counter++
   }
   return newItems
 }   
