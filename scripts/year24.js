@@ -10,4 +10,3 @@
  }
     const items = [6, 2, 7, 3, 3, 8, 0, 7] 
     console.log(year24(items))
- 

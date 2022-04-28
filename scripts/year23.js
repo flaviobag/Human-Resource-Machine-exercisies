@@ -1,13 +1,14 @@
-function buscarMenorNumero(items) {
+function findSmallerNumber(items) {
    return Math.min(...items)
 }
 
 function year23(items) {    
-    const smallerItens = []
+    const smallerItems = []
     items.forEach((item) => {
-        smallerItens.push(buscarMenorNumero(item))
+        smallerItems.push(findSmallerNumber
+        (item))
     })
-    return smallerItens
+    return smallerItems
 }
 
    const items = [[8, 11, 1], [11, 10, 6, 5], [61, 31, 2, 88, 65]] 

@@ -5,19 +5,16 @@ function year21(items) {
     let counter = 0
     let sum = 0
   
-    while(counter < items.length) {
-         
+    while(counter < items.length) {         
         if(items[counter] !== 0){        
             sum = sum + items[counter]           
-    }else {
-        
-        newItems.push(sum)
-        sum = 0        
+        } else{
+            newItems.push(sum)
+            sum = 0        
+        }
+    counter ++    
     }
-    counter ++
-    
-}
-    return newItems
+     return newItems
 }
    const items = [4, 2, 0, 0, 5, 0] 
    console.log(year21(items))
