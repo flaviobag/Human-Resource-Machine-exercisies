@@ -23,5 +23,5 @@ function year22(items) {
     });
     return newItems
 }
-   const items = [6, 19] 
-   console.log(year22(items))
+const items = [6, 19] 
+console.log(year22(items))

@@ -12,9 +12,9 @@ function year21(items) {
             newItems.push(sum)
             sum = 0        
         }
-    counter ++    
+        counter ++    
     }
-     return newItems
+    return newItems
 }
-   const items = [4, 2, 0, 0, 5, 0] 
-   console.log(year21(items))
+const items = [4, 2, 0, 0, 5, 0] 
+console.log(year21(items))
